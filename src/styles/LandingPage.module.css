@@ -1,0 +1,46 @@
+.LandingPage {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.Card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 0;
+  padding: 2em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  z-index: 999;
+  opacity: 0.8;
+}
+.Title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #525252;
+}
+.Logo {
+  width: 240px;
+  height: 240px;
+}
+.Button {
+  background-color: #4bd5aa;
+  border: none;
+  color: inherit;
+  font-size: 1.3rem;
+}
+.Button:hover {
+  background-color: #78eac6;
+  border: none;
+  color: #171717;
+}
+.Button:active {
+  background-color: #78eac6 !important;
+  border: none;
+  color: #171717 !important;
+}
