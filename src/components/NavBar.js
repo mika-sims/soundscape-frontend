@@ -25,7 +25,7 @@ const NavBar = () => {
               placement="top"
               className="w-100 h-100 border-0"
             >
-              <Offcanvas.Header closeButton className="pt-3 pb-1">
+              <Offcanvas.Header closeButton className="pt-1 pb-1">
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                   <Link to={"/"}>
                     <img src={logo} alt="logo" />
