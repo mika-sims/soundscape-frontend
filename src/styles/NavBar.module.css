@@ -7,9 +7,7 @@
 
 .NavLink {
   color: #3e3e3e;
-}
-.NavLink:not(:last-child) {
-  margin-right: 1em;
+  font-size: 3rem;
 }
 
 img {
@@ -21,4 +19,12 @@ img {
 }
 .inactive {
   color: inherit;
+}
+@media (min-width: 768px) {
+  .NavLink {
+    font-size: 16px !important;
+  }
+  .NavLink:not(:last-child) {
+    margin-right: 1em;
+  }
 }

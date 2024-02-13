@@ -32,12 +32,14 @@ const NavBar = () => {
                   </Link>
                 </Offcanvas.Title>
               </Offcanvas.Header>
-              <Offcanvas.Body className="pt-0">
-                <Nav className="justify-content-end flex-grow-1 pe-3 gap-4">
+              <Offcanvas.Body className="pt-0 d-flex">
+                <Nav className="justify-content-center align-items-center justify-content-md-end flex-grow-1 pe-3 gap-4">
                   <NavLink
                     to="/"
                     className={({ isActive }) =>
-                      isActive ? styles.active : styles.inactive
+                      `${isActive ? styles.active : styles.inactive} ${
+                        styles.NavLink
+                      }`
                     }
                   >
                     Home
@@ -45,7 +47,9 @@ const NavBar = () => {
                   <NavLink
                     to="/signin"
                     className={({ isActive }) =>
-                      isActive ? styles.active : styles.inactive
+                      `${isActive ? styles.active : styles.inactive} ${
+                        styles.NavLink
+                      }`
                     }
                   >
                     Sign in
@@ -53,7 +57,9 @@ const NavBar = () => {
                   <NavLink
                     to="/signup"
                     className={({ isActive }) =>
-                      isActive ? styles.active : styles.inactive
+                      `${isActive ? styles.active : styles.inactive} ${
+                        styles.NavLink
+                      }`
                     }
                   >
                     Sign up
