@@ -1,9 +1,14 @@
+* {
+  box-sizing: border-box;
+  -webkit-scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
 .App {
   font-family: "Josefin Sans", sans-serif;
   min-height: 100vh;
 }
 
-.Main{
+.Main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,27 +16,84 @@
   height: 100vh;
   width: 100%;
 }
-
+.Header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: inherit;
+}
+.Image {
+  height: 80%;
+  width: 80%;
+  object-fit: contain;
+}
+.Input {
+  border-color: #e6e6e6;
+}
+.Input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #4bd5aa;
+}
+.Label {
+  background-color:transparent !important;
+}
+.Label::after{
+  background-color: transparent !important;
+}
+.Link {
+  color: #f4ac45;
+}
+.Button {
+  background-color: #4bd5aa;
+  color: #202020;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 2px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  transition: all 0.3s ease;
+}
+.Button:hover {
+  background-color: #3fc39d;
+}
+.Button:active {
+  background-color: #3fc39d !important;
+}
 a {
   text-decoration: none;
   color: inherit;
 }
-
 button:focus {
-  outline: none !important;
-  box-shadow: none !important;
+  outline: none;
+  box-shadow: none;
 }
-
+input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #4bd5aa;
+}
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
 /* scrollbar */
 *::-webkit-scrollbar {
   width: 5px;
 }
 *::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #ffffff;
 }
 *::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #4bd5aa;
 }
 *::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #4bd5aa;
 }
