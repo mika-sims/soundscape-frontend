@@ -61,6 +61,7 @@ const SignUpForm = () => {
                   name="username"
                   value={username}
                   onChange={handleChange}
+                  autoComplete="username"
                 />
               </FloatingLabel>
               {errors.username?.map((message, idx) => (
@@ -80,6 +81,7 @@ const SignUpForm = () => {
                   name="password1"
                   value={password1}
                   onChange={handleChange}
+                  autoComplete="new-password"
                 />
               </FloatingLabel>
               {errors.password1?.map((message, idx) => (
@@ -99,6 +101,7 @@ const SignUpForm = () => {
                   name="password2"
                   value={password2}
                   onChange={handleChange}
+                  autoComplete="new-password"
                 />
               </FloatingLabel>
               {errors.password2?.map((message, idx) => (
