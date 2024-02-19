@@ -20,13 +20,13 @@
   opacity: 0.8;
 }
 .Title {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   color: #525252;
 }
 .Logo {
-  width: 240px;
-  height: 240px;
+  width: 13rem;
+  height: 13rem;
 }
 .Button {
   background-color: #4bd5aa;
