@@ -1,5 +1,6 @@
 .LandingPage {
   height: 90vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,28 +20,8 @@
   z-index: 999;
   opacity: 0.8;
 }
-.Title {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #525252;
-}
 .Logo {
-  width: 13rem;
-  height: 13rem;
+  width: 50%;
+  height: 50%;
 }
-.Button {
-  background-color: #4bd5aa;
-  border: none;
-  color: inherit;
-  font-size: 1.3rem;
-}
-.Button:hover {
-  background-color: #78eac6;
-  border: none;
-  color: #171717;
-}
-.Button:active {
-  background-color: #78eac6 !important;
-  border: none;
-  color: #171717 !important;
-}
+
