@@ -17,7 +17,7 @@ const LandingPage = () => {
           <p>Share your acoustic environment</p>
           <p>Get inspired by the sounds of the world</p>
           <Button className={styles.Button}>
-            <Link to={"/signin"}>Get Started</Link>
+            <Link to={"/signup"}>Get Started</Link>
           </Button>
         </Card.Body>
       </Card>
