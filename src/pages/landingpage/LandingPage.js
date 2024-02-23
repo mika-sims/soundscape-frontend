@@ -1,11 +1,11 @@
 import React from "react";
-import appStyles from "../App.module.css";
-import styles from "../styles/LandingPage.module.css";
-import logo from "../assets/images/logo.svg";
+import appStyles from "../../App.module.css";
+import styles from "../../styles/LandingPage.module.css";
+import logo from "../../assets/images/logo.svg";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
-import ReactParticles from "../components/ReactParticles";
+import ReactParticles from "../../components/ReactParticles";
 
 const LandingPage = () => {
   return (
